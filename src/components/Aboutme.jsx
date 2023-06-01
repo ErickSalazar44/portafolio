@@ -3,6 +3,9 @@ import "./style/aboutme.css"
 const Aboutme = () => {
   return (
     <section className="aboutme__contenedor">
+        <div className='home__deslizar'>
+            <i className='bx bx-chevrons-down'></i>
+        </div>
         <div className="aboutme__porfile-photo">
             <a href="">
                 <i className='linkedin bx bxl-linkedin-square'></i>

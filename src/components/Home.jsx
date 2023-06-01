@@ -15,6 +15,7 @@ const Home = () => {
       <div className='home__portada-img'>
         <img src="../portada-image.svg" alt="img-portada" />
       </div>
+
     </div>
   )
 }
