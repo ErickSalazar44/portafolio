@@ -19,7 +19,7 @@ const Aboutme = () => {
             </a>
             <h3 className="aboutme__hi">Hi!</h3>
             <div className="aboutme__inf">
-                <h4 className="aboutme__name">Erick <span className="aboutme__pais"><img src="./public/peru.png" alt="" /></span></h4>
+                <h4 className="aboutme__name">Erick <span className="aboutme__pais"><img src="./peru.png" alt="" /></span></h4>
                 <p className="aboutme__level">Jr. Developer</p>
                 <p className="aboutme__hashtag">#OpenToWork</p>
             </div>
