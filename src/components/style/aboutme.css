@@ -1,0 +1,200 @@
+:root {
+    --softRed: #DD6B6B;
+    --purpleBackground: #161532;
+    --sombraBtn: -2px 10px 25px -9px #0b0814;
+    --box-shadown: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    --greenPastel: #4DA778;
+    --purpleDark: #0A0214;
+    --yellow: #E5BF48;
+    --red: #D44B6D;
+    --green: #5AAA59;
+    --blackSidebar: #15111A;
+
+}
+.aboutme__contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5em;
+    justify-items: center;
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 2rem auto;
+}
+/*Img de fondo*/
+.aboutme__porfile-photo {
+    background-image: url('../public/perfil_img.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 171px;
+    border-radius: 2px;
+    min-height: 230px;
+    position: relative;
+}
+/* icon */
+.linkedin, .git {
+    position: absolute;
+    left: 2%;
+    font-size: 1.8rem;
+    box-shadow: var(--box-shadown);
+}
+.linkedin {
+    bottom: 22%;
+}
+.git {
+    bottom: 2%;
+}
+
+.btn_contact {
+    background-color: var(--softRed);
+    color: var(--purpleBackground);
+    padding: 0.2em 0.3em 0.3em;
+    border-radius: 2px;
+    box-shadow: var(--box-shadown);
+    position: relative;
+    top: 7%;
+    left: 65%;
+    display: flex;
+    width: 130px;
+    align-items: end;
+    gap: 5px;
+    font-size: 1.1rem;
+}
+
+.aboutme__hi{
+    background-color: var(--greenPastel);
+    position: absolute;
+    top: 30%;
+    left: -15%;
+    padding: 0 0.6em;
+    color: var(--purpleBackground);
+    border-radius: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    box-shadow: var(--box-shadown);
+}
+.aboutme__inf {
+    background-color: var(--purpleDark);
+    position: absolute;
+    left: 56%;
+    bottom: -10%;
+    padding: 0.5em 1.4em;
+    box-shadow: var(--box-shadown);
+    border-radius: 4px;
+}
+.aboutme__name {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+.aboutme__name,.aboutme__pais >img{
+    display: flex;
+    align-items: end;
+}
+.aboutme__pais > img {
+    width: 1.2rem;
+    margin-left: 12px;
+}
+.aboutme__level {
+    opacity: 0.5;
+    font-size: 0.8rem;
+    margin: 0.1em 0 0.2em;
+}
+.aboutme__hashtag {
+    font-size: 0.9rem;
+}
+
+/* BODY */
+
+.aboutme__body-tittle {
+    align-items: baseline;
+    font-size: 2rem;
+    padding: 1em 0 1.2em 0;
+    font-weight: 500;
+}
+.aboutme__body-tittle > span {
+    color: var(--purpleDark);
+    border-radius: 2px;
+    padding: 0 0.2em;
+}
+.aboutme__window {
+    background-color: var(--purpleDark);
+    outline: 1px solid whitesmoke;
+    border-radius: 2px;
+}
+.aboutme__window-bar {
+    display: flex;
+    outline: 1px solid whitesmoke;
+    border-radius: 2px 2px 0 0;
+}
+.aboutme__window-btns {
+    padding: 0.5em 1em;
+    border-right: 1px solid whitesmoke;
+}
+
+/*btn navbar*/
+.b-btn {
+    display: inline-block;
+    margin: 0 0.2em;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.yellow {
+    background-color: var(--yellow);
+}
+.red {
+    background-color: var(--red);
+}
+.green {
+    background-color: var(--green);
+}
+.bar__tittle {
+    background-color: var(--purpleDark);
+    position: relative;
+    bottom: -2px;
+    padding: 0.3em 0.8em;
+    border-right: 1px solid whitesmoke;
+    border-radius: 3px;
+    font-size: 1.1rem;
+}
+
+.window__body {
+    display: flex;
+    max-width: 400px;
+}
+.window__sidebar {
+    background-color: var(--blackSidebar);
+    padding: 1.5em 0.9em;
+}
+
+.window__text {
+    position: relative;
+}
+.window__parrafo {
+    padding: 1.5em 0.8em;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+.content-cursor {
+    position: absolute;
+    right: -2%;
+    bottom: 2%;
+}
+
+@media (min-width: 800px) {
+    .aboutme__contenedor{
+        grid-template-columns: 1fr 1fr;
+        justify-items: flex-start;
+        align-items: center;
+        margin-top: 7em;
+    }
+    .aboutme__porfile-photo {
+        margin: 0 1em;
+    }
+    .btn_contact {
+        position: relative;
+        top: 20px;
+        left: 80%;
+        padding: 0.4em;
+    }
+}

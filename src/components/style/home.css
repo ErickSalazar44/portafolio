@@ -1,0 +1,110 @@
+:root {
+    --purple: #785ca0;
+    --greenSpan: #3CB993;
+    --purpleDark: #0A0214;
+}
+.home__contenedor {
+    position: relative;
+    overflow: hidden;
+    padding: 3.4em 2em 7em 2em;
+    margin: 8vh auto;
+    scroll-margin-top: 5rem;
+    max-width: 1210px;
+}
+.home__tittle {
+    max-width: 320px;
+    word-wrap: break-word;
+    font-size: 3rem;
+    margin: 2rem 0;
+    white-space: pre-line;
+}
+.home__tittle > .nombre {
+    color: var(--purple);
+}
+
+.home__tittle > .punto {
+    color: var(--greenSpan);
+}
+
+.home__nav {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    gap: 1.6em;
+    margin-top: 4em;
+}
+
+.home__btn {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    padding: 0.7em 1em;
+    margin-left: 0;
+    gap: 0.5em;
+    font-size: 1.1rem;
+    border-radius: 2px;
+}
+.btn_proyectos {
+    background-color: var(--purple);
+    color: var(--purpleDark);
+}
+.btn_cv {
+    background-color: var(--greenSpan);
+}
+/*Img de fondo*/
+.home__portada-img{
+    position: absolute;
+    left: 55%;
+    bottom: 0;
+    width: 380px;
+    z-index: -1;
+}
+
+@media (min-width:600px) {
+    .home__contenedor {
+        padding: 4em 2em 7em;
+    }
+    .home__tittle {
+        max-width: 400px;
+        font-size: 3.5rem;
+    }
+
+    .home__portada-img{
+        left: 53%;
+        width: 400px;
+    }
+}
+@media (min-width:900px) {
+    .home__contenedor {
+        margin: 9vh auto;
+        padding: 5em 2em 7em 2em;
+    }
+    .home__portada-img{
+        left: 55%;
+        width: 450px;
+    }
+    .home__tittle {
+        font-size: 3.6rem;
+    }
+
+    .home__portada-img{
+        left: 55%;
+        width: 450px;
+    }
+}
+@media (min-width:1100px) {
+    .home__contenedor {
+        padding: 7em 2em 7em 2em;
+    }
+    .home__tittle {
+        max-width: 440px;
+        font-size: 3.8rem;
+    }
+
+    .home__portada-img{
+        left: 54%;
+        width: 500px;
+        bottom: -5%;
+    }
+}

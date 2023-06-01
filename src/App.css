@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mirza&family=Roboto+Slab:wght@100;200;300;400&display=swap');
+
+:root {
+  --white: #e2e5e4;
+  --purpleBackground: #161532;
+
+  --font-familycurva: 'Mirza', cursive;
+  --font-family: 'Roboto Slab', serif;
+
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  color: var(--white);
+  background-color: var(--purpleBackground);
+  font-family: var(--font-familycurva);
+}
+li {
+  list-style-type: none;
+}
