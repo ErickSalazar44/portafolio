@@ -22,7 +22,7 @@
 }
 /*Img de fondo*/
 .aboutme__porfile-photo {
-    background-image: url('../public/perfil_img.jpg');
+    background-image: url('../perfil_img.jpg');
     background-size: cover;
     background-position: center;
     width: 171px;
