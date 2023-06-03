@@ -1,0 +1,198 @@
+:root {
+    --yellow: #E5BF48;
+    --purpleBackground: #161532;
+    --softRed: #DD6B6B;
+    --greenSpan: #3CB993;
+    --purple: #785ca0;
+    --htmlOrang: #E36E50;
+    --git: #BB4141;
+    --cssBlue: #2F78E7;
+    --greenPastel: #4DA778;
+    --reactSky: #5BD1F1;
+    --menuPurple: #fdfdff;
+    --nodeGreen: #51B17D;
+    --phBlue: #1DAEDC;
+    --figm: -webkit-linear-gradient(215deg, #eb5e33 0%, #ff7768 17%, #a665fa 39%, #32c5ff 60%, #1dc484 80%);
+    --pink: #BE336D;
+    
+}
+.hab {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hab__card {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 2em 0;
+    padding: 2em 0;
+}
+
+.hab__card-info {
+    padding: 3.2em 1.5em;
+    overflow: hidden;
+    color: var(--purpleBackground);
+    background-color: var(--yellow);
+    position: relative;
+}
+.hab__card-title {
+    font-size: 2rem;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.hab__card-script {
+    font-family: 'Mirza', cursive;
+    font-size: 8rem;
+    line-height: 3rem;
+}
+.hab__card-parrafo {
+    max-width: 350px;
+    z-index: 3;
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+.span-años {
+    background-color: var(--softRed);
+}
+.span-developer {
+    background-color: var(--greenSpan);
+}
+.span-stack {
+    background-color: var(--purple);
+}
+.skill {
+    width: 300px;
+    position: absolute;
+    right: -20%;
+    bottom: -10%;
+    z-index: 1000;
+}
+
+/*Iconos */
+.hab__body ul {
+    max-width: 360px;
+    margin: 6em 1.2rem;
+    gap: 14px 11px;
+}
+.hab__flexContent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hab__flexContent > li {
+    font-family: "Inter-Medium", sans-serif;
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 0.8em 0.5em 0.7em;
+    border: 2px solid;
+    font-size: 1.05em;
+}
+
+
+/* Tamaño de los iconos */
+.hab__bx {
+    font-size: 1.3rem;
+}
+/*JAVASCRIPT*/
+.hab__js {
+    color: var(--yellow);
+    border-radius: 0 1em 1em 0;
+}
+/*HTML*/
+.hab__html {
+    color: var(--htmlOrang);
+    border-radius: 1em 0 0 1em;
+}
+/* GIT */
+.hab__git {
+    color: var(--git);
+    border-radius: 0.3em;
+}
+/* CSS */
+.hab__css {
+    color: var(--cssBlue);
+    border-radius: 1.1em;
+}
+/* React */
+.hab__react {
+    color: var(--reactSky);
+    border-radius: 1.1em;
+}
+/*NodeJs*/
+.hab__nodejs {
+    color: var(--nodeGreen);
+    border-radius: 0.2em 0  0 0.5em ;
+}
+
+/*Tailwind*/
+.hab__tailwind {
+    color: var(--phBlue);
+    border-radius: 0 0 0.5em 0;
+}
+
+/*Icon arrow*/
+.hab__arrowTamaño {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    font-size: 2em;
+    border-radius: 50%;
+    color: var(--purpleBackground);
+}
+
+.hab__arrow1 {
+    background-color: var(--purple);
+}
+.hab__arrow3 {
+    background-color: var(--greenPastel);
+}
+.hab__arrow4 {
+    background-color: white;
+}
+
+/*icon especiales*/
+.hab__flexContent > .hab__arrow2 {
+    background: linear-gradient(215deg, #eb5e33 0%, #ff7768 17%, #a665fa 39%, #32c5ff 60%, #1dc484 80%);
+    color: var(--purpleBackground);
+    width: 80px;
+    padding: 0;
+    padding-right: 1em;
+    border-radius: 0.6em;
+}
+.bx-right-arrow-alt {
+    font-size: 2em;
+}
+
+.hab__cooffe{
+    color: var(--purpleBackground);
+    background-color: var(--pink);
+    padding-left: 2px;
+}
+
+
+@media (min-width: 800px) {
+    .hab__card {
+        grid-template-columns: 1fr 1fr;
+        gap: 3em;
+    }
+    .hab__card-info {
+        padding: 2em 1.5em;
+        height: 415px;
+        border-radius: 2px;
+    }
+    .hab__body ul {
+        gap: 20px 15px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .hab__card-info {
+        width: 450px;
+    }
+    .hab__body ul {
+        max-width: 400px;
+    }
+}
