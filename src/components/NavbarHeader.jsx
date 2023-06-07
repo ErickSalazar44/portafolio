@@ -10,7 +10,7 @@ const NavbarHeader = () => {
     <header className='header__contenedor'>
     <nav className="header__navbar">
         <div className='header__logo'>
-            <h2>Ea<span className='header__logo-tittle-span'>rl</span> </h2>
+            <h2>Erick<span className='header__logo-tittle-span'> salazar</span> </h2>
         </div>
         <ul className={`header__info ${menuOpen &&'header__info-show'}`}>
             <li className='header__info-anclas'>
