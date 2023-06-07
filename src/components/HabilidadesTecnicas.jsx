@@ -1,4 +1,4 @@
-import './style/HabilidadesTecnicas.css'
+import './style/habilidadesTecnicas.css'
 const HabilidadesTecnicas = () => {
     return (
         <section id="habilidades" className="hab">
