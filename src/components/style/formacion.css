@@ -1,0 +1,105 @@
+:root {
+    --greenSpan: #3CB993;
+    --purpleBackground: #161532;
+    --blueAlura: #5B99D2;
+}
+.formation {
+    background-color: var(--greenSpan);
+    position: relative;
+    overflow: hidden;
+    margin: 4em 0;
+}
+.formation__img-graduate {
+    position: absolute;
+    width: 48%;
+    top: 9%;
+    right: -25px;
+    border-radius: 2px;
+
+    z-index: 1000;
+}
+.formation__title {
+    max-width: 400px;
+    line-height: 7.6rem;
+}
+.title_bg{
+    font-family: 'Inter', sans-serif;
+    font-size: 6.3rem;
+    position: relative;
+    left: -11px;
+    top: -5px;
+    opacity: 0.2;
+    color: var(--purpleBackground);
+    letter-spacing: -5px;
+}
+.formation__card {
+    display: grid;
+}
+.formation__card .card_list {
+    margin-left: 1.3em;
+    padding: 0 0 2rem 0;
+    color: var(--purpleBackground);
+}
+.formation__title-card{
+    font-size: 1.9rem;
+    margin: 2rem 0 0 0;
+}
+.formation__parrafo {
+    font-size: 1.3rem;
+    position: relative;
+}
+.formation__parrafo::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 330px;
+    border-bottom: 1px solid var(--purpleBackground);
+    bottom: -8px;
+}
+.aluraColorblue {
+    background-color: var(--blueAlura);
+}
+.img-group {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+}
+.img-group > img {
+    width: 90px;
+    height: 38px;
+}
+
+@media (min-width: 1024px) {
+    .img-group {
+        justify-content: space-between;
+        width: 95%;
+        padding: 0;
+        align-items: center;
+    }
+    .formation {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1400px;
+        margin: 4em auto;
+        border-radius: 2px;
+    }
+    .formation__card .card_list {
+        margin-left: 0;
+        width: 553px;
+    }
+    .formation__img-graduate {
+        position: absolute;
+        width: 20%;
+        top: 14%;
+        left: 26%;
+    }
+    .formation__title {
+        max-width: 400px;
+        line-height: 9.1rem;
+        
+    }
+    .title_bg {
+        font-size: 7.2rem;
+        letter-spacing: 5px;
+    }
+}
