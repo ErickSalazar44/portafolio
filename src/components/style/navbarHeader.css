@@ -7,6 +7,9 @@ a {
     --blueAlura: #5B99D2;
     --reactSky: #5BD1F1;
 }
+.header__logo {
+    padding: 0 1em;
+}
 .header__contenedor {
     display: flex;
     justify-content: center;
@@ -20,7 +23,7 @@ a {
     position: fixed;
     top: 0;
     padding: 0.6em 1.5em;
-    z-index: 20;
+    z-index: 2000;
     background-color: var(--menuPurple);
 }
 .header__logo > h2{
@@ -69,17 +72,16 @@ a {
 /* Efect Sombras */
 .menu-backdrop {
     position: absolute;
-    background-color: rgba(253, 248, 248, 0.459);
-    backdrop-filter: blur(8px);
-    border-radius: 4px;
+    background-color: #5bd0f180;
+    border-radius: 5px;
     transform: translateX(var(--left)) translateY(var(--top));
     left: 0;
     top: 0;
     width: var(--width);
     height: var(--height);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s cubic-bezier(0.85, 0, 0.15, 1);
     opacity: 1;
-    z-index: -10;
+    z-index: 10;
 }
 
 
@@ -88,7 +90,10 @@ a {
         display: none;
     }
     .header__info-anclas {
-        padding: 0.5em 2em;
+        padding: 0.5em 1em;
+    }
+    .header__navbar{ 
+        backdrop-filter: blur(1px);
     }
     .header__info {
         position: static;

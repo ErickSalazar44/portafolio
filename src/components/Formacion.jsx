@@ -1,7 +1,7 @@
 import "./style/formacion.css";
 const Formacion = () => {
     return (
-        <section className="formation">
+        <section id="formacion" className="formation">
             <img className="formation__img-graduate" src='./graduate.svg' alt='img formacion de fondo' />
             <div className="formation__title">
                 <span className="title_bg for">

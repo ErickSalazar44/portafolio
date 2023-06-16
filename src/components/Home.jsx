@@ -9,7 +9,7 @@ const Home = () => {
         <span>Desarrollador Frontend</span> 
       </h1>
       <nav className='home__nav'>
-        <a className='home__btn btn_proyectos' href="">Ver proyectos <i className='bx bxs-folder-open' ></i></a>
+        <a className='home__btn btn_proyectos' href="#projects">Ver proyectos <i className='bx bxs-folder-open' ></i></a>
         <a className='home__btn btn_cv' href=""> <i className='bx bx-chevrons-down' ></i> Curriculum</a>
       </nav>
       <div className='home__portada-img'>

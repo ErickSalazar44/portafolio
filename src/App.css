@@ -18,6 +18,7 @@ body {
   color: var(--white);
   background-color: var(--purpleBackground);
   font-family: var(--font-familycurva);
+  outline: solid 1px white;
 }
 li {
   list-style-type: none;

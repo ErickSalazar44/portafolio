@@ -2,7 +2,7 @@ import Project from "./Project";
 import "./style/projects.css";
 const Projects = () => {
     return (
-        <section className='projects__content'>
+        <section id="projects" className='projects__content'>
             <h3 className='projects__titulo'>Proyectos</h3>
             <div className='projects__content-body'>
                 <Project
