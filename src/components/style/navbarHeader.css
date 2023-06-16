@@ -10,6 +10,7 @@ a {
 .header__contenedor {
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 .header__navbar{
     width: 100%;
@@ -52,6 +53,9 @@ a {
     text-align: start;
     padding: 1em 2em;
 }
+.header__info-anclas > a {
+    padding: 0.2em 0.5em;
+}
 /*ICON*/
 .header__icon-menu {
     background: none;
@@ -61,6 +65,21 @@ a {
 }
 .close {
     display: none;
+}
+/* Efect Sombras */
+.menu-backdrop {
+    position: absolute;
+    background-color: rgba(253, 248, 248, 0.459);
+    backdrop-filter: blur(8px);
+    border-radius: 4px;
+    transform: translateX(var(--left)) translateY(var(--top));
+    left: 0;
+    top: 0;
+    width: var(--width);
+    height: var(--height);
+    transition: transform 0.3s ease-in-out;
+    opacity: 1;
+    z-index: -10;
 }
 
 
