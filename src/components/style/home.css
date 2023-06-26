@@ -1,8 +1,4 @@
-:root {
-    --purple: #785ca0;
-    --greenSpan: #3CB993;
-    --purpleDark: #0A0214;
-}
+
 .home__contenedor {
     position: relative;
     overflow: hidden;
@@ -17,6 +13,7 @@
     font-size: 3rem;
     margin: 2rem 0;
     white-space: pre-line;
+    color: var(--letrasHome);
 }
 .home__tittle > .nombre {
     color: var(--purple);
@@ -51,6 +48,7 @@
 }
 .btn_cv {
     background-color: var(--greenSpan);
+    color: black;
 }
 /*Img de fondo*/
 .home__portada-img{
@@ -59,6 +57,7 @@
     bottom: 0;
     width: 380px;
     z-index: -1;
+
 }
 
 @media (min-width:600px) {

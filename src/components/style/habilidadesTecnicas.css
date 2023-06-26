@@ -1,21 +1,4 @@
-:root {
-    --yellow: #E5BF48;
-    --purpleBackground: #161532;
-    --softRed: #DD6B6B;
-    --greenSpan: #3CB993;
-    --purple: #785ca0;
-    --htmlOrang: #E36E50;
-    --git: #BB4141;
-    --cssBlue: #2F78E7;
-    --greenPastel: #4DA778;
-    --reactSky: #5BD1F1;
-    --menuPurple: #fdfdff;
-    --nodeGreen: #51B17D;
-    --phBlue: #1DAEDC;
-    --figm: -webkit-linear-gradient(215deg, #eb5e33 0%, #ff7768 17%, #a665fa 39%, #32c5ff 60%, #1dc484 80%);
-    --pink: #BE336D;
-    
-}
+
 .hab {
     max-width: 1200px;
     margin: 0 auto;

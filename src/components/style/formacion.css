@@ -1,8 +1,4 @@
-:root {
-    --greenSpan: #3CB993;
-    --purpleBackground: #161532;
-    --blueAlura: #5B99D2;
-}
+
 .formation {
     background-color: var(--greenSpan);
     position: relative;

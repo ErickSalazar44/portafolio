@@ -1,20 +1,16 @@
-:root {
-    --softRed: #DD6B6B;
-    --purpleBackground: #161532;
-    --sombraBtn: -2px 10px 25px -9px #0b0814;
-    --box-shadown: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-    --greenPastel: #4DA778;
-    --purpleDark: #0A0214;
-    --yellow: #E5BF48;
-    --red: #D44B6D;
-    --green: #5AAA59;
-    --blackSidebar: #15111A;
-}
+
 .home__deslizar {
     position: absolute;
     top: -4%;
     right: 50%;
     font-size: 2.5em;
+    border: 1px solid var(--white);
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-radius: 50%;
 }
 .aboutme__contenedor{
     display: grid;

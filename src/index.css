@@ -1,5 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 html {
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+
+    --white: #e2e5e4;
+    --purpleBackground: #171717;
+    --menuPurple: #1f1f1fef;
+    --fondoProyectCard: #171717;
+    --purple: #41b3bb;
+    --greenSpan: #ffffff;
+    /* Card proyectos */
+    --cardColor: #111;
+    /* Card acerca de mi */
+    --purpleDark: #222222;
+    --blackSidebar: #121213;
+    /* Color logo*/
+    --letrasHome: rgb(111, 111, 111);
+/*
+Color principal:
+
+Blanco: #e2e5e4
+Colores de fondo:
+
+Negro púrpura: #171717
+Gris oscuro: #111
+Púrpura oscuro: #0A0214
+Colores complementarios:
+
+Gris claro: #f5f5f5
+Negro púrpura para el menú: #1F1F1F
+Púrpura claro de acento: #6b3e8f
+Azul oscuro de acento: #0e4c92
+*/
+
+    --softRed: #DD6B6B;
+    --sombraBtn: -2px 10px 25px -9px #0b0814;
+    --box-shadown: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    --greenPastel: #4DA778;
     
+    --yellow: #E5BF48;
+    --red: #D44B6D;
+    --green: #5AAA59;
+    
+    
+    --blueAlura: #5B99D2;
+    --white: #e2e5e4;
+    --blueAlura: #5B99D2;
+
+    --yellow: #E5BF48;
+
+    --softRed: #DD6B6B;
+
+
+    --htmlOrang: #E36E50;
+    --git: #BB4141;
+    --cssBlue: #2F78E7;
+    --greenPastel: #4DA778;
+    --reactSky: #5BD1F1;
+
+    --nodeGreen: #51B17D;
+    --phBlue: #1DAEDC;
+    --figm: -webkit-linear-gradient(215deg, #eb5e33 0%, #ff7768 17%, #a665fa 39%, #32c5ff 60%, #1dc484 80%);
+    --pink: #BE336D;
+    --white: #e2e5e4;
+    --blueAlura: #5B99D2;
+    
+
+}
+a {
+    color: white;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    opacity: 0.5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(174, 174, 174, 0.6);
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(174, 174, 174, 1);
+}
+
+::-webkit-scrollbar-track {
+    background-color: #484848;
 }

@@ -15,7 +15,6 @@ const NavbarHeader = () => {
             const listItem = event.target.closest("a");
             const { left, top, width, height } =
                 listItem.getBoundingClientRect(); // posicion de las anclas
-
             // almacen en variables con la propiedad setProperty
             menuBackDrop.style.setProperty( "--left", `${ left + window.scrollX }px`);
             menuBackDrop.style.setProperty( "--top", `${top + window.scrollY}px`);
@@ -59,30 +58,42 @@ const NavbarHeader = () => {
             <nav className='header__navbar'>
                 <div className='header__logo'>
                     <h2>
-                        Erick
+                        <span className="header__logo-punto">•</span>
+                        {" "}
+                        Earl
                         <span className='header__logo-tittle-span'>
                             {" "}
-                            salazar
-                        </span>{" "}
+                            Salazar
+                        </span>
                     </h2>
                 </div>
                 <ul
                     className={`header__info ${ menuOpen && "header__info-show" }`}
                 >
                     <li className='header__info-anclas'>
-                        <a href='#aboutme'>Acerca de mí</a>
+                        <a href='#aboutme'>
+                            <span className="header__info-ancla--span">Acerca de mí</span>
+                        </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a href='#habilidades'>Habilidades</a>
+                        <a href='#habilidades'>
+                            <span className="header__info-ancla--span">Habilidades</span>
+                        </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a href='#projects'>Proyectos</a>
+                        <a href='#projects'>
+                            <span className="header__info-ancla--span">Proyectos</span>
+                        </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a href='#formacion'>Formación</a>
+                        <a href='#formacion'>
+                            <span className="header__info-ancla--span">Formación</span>
+                        </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a href=''>Contacto</a>
+                        <a href=''>
+                            <span className="header__info-ancla--span">Contacto</span>
+                        </a>
                     </li>
                 </ul>
                 <button onClick={toggleMenu} className='header__icon-menu'>

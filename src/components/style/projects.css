@@ -1,9 +1,7 @@
-:root {
-    --fondoProyectCard: #161532;
-    --cardColor: #111;
-}
+
 .projects__content {
     background-color: var(--fondoProyectCard);
+    background-image: url('./backgroundFondo.png');
     display: flex;
     flex-direction: column;
     align-items: center;
