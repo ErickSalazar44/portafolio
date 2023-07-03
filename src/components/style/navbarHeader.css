@@ -60,10 +60,11 @@
 .header__info-anclas {
     text-align: start;
     padding: 1em 1em;
+
 }
 .header__info-anclas > a {
     padding: 0.5em 1em;
-
+    color: #cbd5e1 ; 
 }
 .header__info-ancla--span {
     display: inline-block;
@@ -75,7 +76,7 @@
     content: '';
     width: 50%;
     position: absolute;
-    background-color: var(--letrasHome);
+    background-color: white;
     height: 1px;
     bottom: 1px;
     left: -50%;
@@ -83,13 +84,13 @@
 }
 
 .header__info-ancla--span::after {
-    content: '--';
+    content: '';
     position: absolute;
     width: 50%;
     height: 1px;
     right: -50%;
     bottom: 1px;
-    background-color: var(--letrasHome);
+    background-color: white;
     transition: right 0.5s cubic-bezier(0.85, 0, 0.15, 1);
 }
 .header__info-anclas > a:hover .header__info-ancla--span::before {
@@ -113,8 +114,8 @@
 /* Efect Sombras */
 .menu-backdrop {
     position: absolute;
-    background-color: #ffffff69;
-    border-radius: 1em;
+    background-color: #ffffff21;
+    border-radius: 2em;
     transform: translateX(var(--left)) translateY(var(--top));
     left: 0;
     top: 0;

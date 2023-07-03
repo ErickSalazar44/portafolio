@@ -5,7 +5,7 @@ html {
 
     --white: #e2e5e4;
     --purpleBackground: #171717;
-    --menuPurple: #1f1f1fef;
+    --menuPurple: #1f1f1fc2;
     --fondoProyectCard: #171717;
     --purple: #41b3bb;
     --greenSpan: #ffffff;
@@ -16,6 +16,29 @@ html {
     --blackSidebar: #121213;
     /* Color logo*/
     --letrasHome: rgb(111, 111, 111);
+    --letrasNavbar: #cbd5e1;
+
+
+      /* Colores que resaltan */
+  --resaltOrange: #FFA500;
+  --resaltYellow: #FCD116;
+  --resaltPink: #FF4081;
+  --resaltBlue: #00BFFF;
+  --resaltLimeGreen: #00FF00;
+
+  --resaltRed: #FF0000;
+  --resaltCyan: #00FFFF;
+  --resaltMagenta: #FF00FF;
+  --resaltGold: #FFD700;
+  --resaltSilver: #C0C0C0;
+
+
+    /* Colores que resaltan */
+    --resaltCrimson: #DC143C;
+    --resaltEmerald: #2E8B57;
+    --resaltAmber: #FFBF00;
+    --resaltIndigo: #4B0082;
+    --resaltSlateGray: #708090;
 /*
 Color principal:
 

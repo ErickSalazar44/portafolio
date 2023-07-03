@@ -16,7 +16,7 @@
     color: var(--letrasHome);
 }
 .home__tittle > .nombre {
-    color: var(--purple);
+    color: var(--resaltBlue);
 }
 
 .home__tittle > .punto {
@@ -26,7 +26,7 @@
 .home__nav {
     display: flex;
     flex-direction: column;
-    width: 180px;
+    width: 200px;
     gap: 1.6em;
     margin-top: 4em;
 }
@@ -41,15 +41,31 @@
     gap: 0.5em;
     font-size: 1.1rem;
     border-radius: 2px;
+    transition: all 0.3s ease;
+    position: relative;
+
+
+       box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
 }
 .btn_proyectos {
-    background-color: var(--purple);
+    background-color: var(--resaltBlue);
     color: var(--purpleDark);
 }
 .btn_cv {
     background-color: var(--greenSpan);
     color: black;
 }
+
+.home__btn:hover {
+    letter-spacing: 0.05em;
+}
+
+
+
+
+
 /*Img de fondo*/
 .home__portada-img{
     position: absolute;
