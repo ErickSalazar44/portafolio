@@ -17,28 +17,12 @@ html {
     /* Color logo*/
     --letrasHome: rgb(111, 111, 111);
     --letrasNavbar: #cbd5e1;
+    --resaltBlue: #68c6e6;
 
-
-      /* Colores que resaltan */
-  --resaltOrange: #FFA500;
-  --resaltYellow: #FCD116;
-  --resaltPink: #FF4081;
-  --resaltBlue: #00BFFF;
-  --resaltLimeGreen: #00FF00;
-
-  --resaltRed: #FF0000;
-  --resaltCyan: #00FFFF;
-  --resaltMagenta: #FF00FF;
-  --resaltGold: #FFD700;
-  --resaltSilver: #C0C0C0;
-
-
-    /* Colores que resaltan */
-    --resaltCrimson: #DC143C;
-    --resaltEmerald: #2E8B57;
-    --resaltAmber: #FFBF00;
-    --resaltIndigo: #4B0082;
-    --resaltSlateGray: #708090;
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
 /*
 Color principal:
 
@@ -67,8 +51,7 @@ Azul oscuro de acento: #0e4c92
     
     
     --blueAlura: #5B99D2;
-    --white: #e2e5e4;
-    --blueAlura: #5B99D2;
+
 
     --yellow: #E5BF48;
 
@@ -85,10 +68,6 @@ Azul oscuro de acento: #0e4c92
     --phBlue: #1DAEDC;
     --figm: -webkit-linear-gradient(215deg, #eb5e33 0%, #ff7768 17%, #a665fa 39%, #32c5ff 60%, #1dc484 80%);
     --pink: #BE336D;
-    --white: #e2e5e4;
-    --blueAlura: #5B99D2;
-    
-
 }
 a {
     color: white;

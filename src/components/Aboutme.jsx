@@ -3,9 +3,15 @@ import "./style/aboutme.css";
 const Aboutme = () => {
     return (
         <section id='aboutme' className='aboutme__contenedor'>
-            <div className='home__deslizar'>
-                <i className='bx bx-chevrons-down'></i>
-            </div>
+
+            <a href="#aboutme" className='scrolldown'>
+                <div className='chevrons'>
+                    <div className='chevrondown'></div>
+                    <div className='chevrondown'></div>
+                </div>
+            </a>
+            <div className="aboutme__body_contenedor">
+
             <div className='aboutme__porfile-photo'>
                 <a href=''>
                     <i className='linkedin bx bxl-linkedin-square'></i>
@@ -53,9 +59,13 @@ const Aboutme = () => {
                                 reprehenderit quam, similique modi dolore
                                 doloremque, rerum soluta itaque at saepe!
                                 Architecto alias error unde accusantium, dolorem
-                                odit quisquam porro maiores.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quo doloremque mollitia! Iusto vitae eveniet aliquam fuga qui, non temporibus molestias optio maiores, eligendi accusantium! Facilis architecto neque aperiam rem.
-                                ectetur incidunt ea cumque debitis.
+                                odit quisquam porro maiores. Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Odit quo
+                                doloremque mollitia! Iusto vitae eveniet aliquam
+                                fuga qui, non temporibus molestias optio
+                                maiores, eligendi accusantium! Facilis
+                                architecto neque aperiam rem. ectetur incidunt
+                                ea cumque debitis.
                             </p>
                             <svg
                                 className='content-cursor'
@@ -73,6 +83,7 @@ const Aboutme = () => {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     );

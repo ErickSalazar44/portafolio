@@ -39,7 +39,7 @@
     background-color: var(--softRed);
 }
 .span-developer {
-    background-color: var(--greenSpan);
+    background-color: var(--greenPastel);
 }
 .span-stack {
     background-color: var(--purple);
@@ -160,9 +160,9 @@
         display: flex;
         justify-content: space-between;
         gap: 3em;
-        margin-top: 6.5em;
-        margin-bottom: 6.5em;
-        padding: 4em 3em 4em 3em;
+        margin-top: 3.5em;
+        margin-bottom: 3.5em;
+        padding: 7em 3em 4em 3em;
     }
     .hab__card-info {
         padding: 2em 1.5em;

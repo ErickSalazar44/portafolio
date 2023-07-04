@@ -1,29 +1,82 @@
-
-.home__deslizar {
-    position: absolute;
-    top: -4%;
-    right: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 2.5em;
-    border: 1px solid var(--white);
-    width: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-    border-radius: 50%;
+.scrolldown {
+    --color: skyblue;
+    --sizeX: 30px;
+    --sizeY: 50px;
+    position: relative;
+    width: var(--sizeX);
+    height: var(--sizeY);
+    margin-left: var(sizeX / 2);
+    border: calc(var(--sizeX) / 10) solid var(--color);
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    cursor: pointer;
 }
+
+.scrolldown::before {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: var(--color);
+    border-radius: 100%;
+    animation: scrolldown-anim 2s infinite;
+    box-sizing: border-box;
+    box-shadow: 0px -5px 3px 1px #2a547066;
+}
+
+
+.chevrons {
+    padding: 6px 0 0 0;
+    margin-left: -3px;
+    margin-top: 48px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chevrondown {
+    margin-top: -6px;
+    position: relative;
+    border: solid var(--color);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+}
+
+.chevrondown:nth-child(odd) {
+    animation: pulse54012 500ms ease infinite alternate;
+}
+
+.chevrondown:nth-child(even) {
+    animation: pulse54012 500ms ease infinite alternate 250ms;
+}
+
+
+
 .aboutme__contenedor{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 3em;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 1200px;
-    padding: 5rem 2rem 2rem;
+    padding: 4rem 2rem 2rem;
     margin: 2rem auto;
     position: relative;
 }
+
+.aboutme__body_contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
 /*Img de fondo*/
 .aboutme__porfile-photo {
     background-image: url('../perfil_img.jpg');
@@ -187,14 +240,16 @@
 }
 
 @media (min-width: 850px) {
-    .aboutme__contenedor{
-        display: flex;
+    .aboutme__body_contenedor{
         justify-content: space-between;
         align-items: center;
+        flex-direction: row;
         margin-top: 6.5em;
-        margin-bottom: 6.5em;
-        padding: 4em 3em 4em 3em;
+        margin-bottom: 4.5em;
+        padding: 2em 1em 2em;
+        width: 100%;
     }
+
     .aboutme__porfile-photo {
         margin: 0 1em;
     }
@@ -209,5 +264,39 @@
     }
     .window__body {
         max-width: 450px;
+    }
+}
+
+@keyframes scrolldown-anim {
+    0% {
+        opacity: 0;
+        height: 6px;
+    }
+
+    40% {
+        opacity: 1;
+        height: 10px;
+    }
+
+    80% {
+        transform: translate(0, 20px);
+        height: 10px;
+        opacity: 0;
+    }
+
+    100% {
+        height: 3px;
+        opacity: 0;
+    }
+}
+
+
+@keyframes pulse54012 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.5;
     }
 }
