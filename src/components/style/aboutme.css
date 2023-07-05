@@ -68,6 +68,7 @@
     padding: 4rem 2rem 2rem;
     margin: 2rem auto;
     position: relative;
+    gap: 1em;
 }
 
 .aboutme__body_contenedor {

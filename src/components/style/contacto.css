@@ -1,0 +1,58 @@
+.contact {
+    margin-top: 5em;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contact__contenedor {
+    background: var(--cardColor);
+}
+
+.svgContenedor {
+    position: relative;
+    top: 0.5em;
+}
+
+.contact__carrusel {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 2em;
+}
+
+.carrusel__1 {
+    font-weight: 400;
+    transform: translateX(-10px);
+}
+
+.carrusel__1, .carrusel__2 {
+    display: flex;
+    font-size: 1.6em;
+
+    opacity: 0.9;
+    transition: 0.5s;
+    font-style: italic;
+}
+
+.carrusel__2 {
+    font-family: 'Mirza';
+}
+
+.cta-item {
+    display: flex;
+    gap: 0.1em;
+}
+
+.contact__text {
+
+    margin: 1em 0 1.2em;
+}
+
+
+.contact__span1 {
+
+}
+
+.pdContact {
+    padding: 0 1em;
+}

@@ -24,44 +24,21 @@ html {
     --enhanced-glow-color: rgb(231, 206, 255);
     --btn-color: rgb(100, 61, 136);
 /*
-Color principal:
-
-Blanco: #e2e5e4
-Colores de fondo:
-
-Negro púrpura: #171717
-Gris oscuro: #111
-Púrpura oscuro: #0A0214
-Colores complementarios:
-
-Gris claro: #f5f5f5
-Negro púrpura para el menú: #1F1F1F
-Púrpura claro de acento: #6b3e8f
 Azul oscuro de acento: #0e4c92
 */
 
     --softRed: #DD6B6B;
     --sombraBtn: -2px 10px 25px -9px #0b0814;
     --box-shadown: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-    --greenPastel: #4DA778;
-    
     --yellow: #E5BF48;
     --red: #D44B6D;
     --green: #5AAA59;
-    
-    
     --blueAlura: #5B99D2;
-
-
-    --yellow: #E5BF48;
-
-    --softRed: #DD6B6B;
-
-
     --htmlOrang: #E36E50;
     --git: #BB4141;
     --cssBlue: #2F78E7;
-    --greenPastel: #4DA778;
+    --greenPastel: #55b483;
+    --greenformacion: #5bc0af;
     --reactSky: #5BD1F1;
 
     --nodeGreen: #51B17D;
