@@ -7,6 +7,7 @@ import HabilidadesTecnicas from './components/HabilidadesTecnicas'
 import Home from './components/Home'
 import NavbarHeader from './components/NavbarHeader'
 import Projects from './components/Projects'
+import CursorPersonalizado from './components/cursor/CursorPersonalizado'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 			<Formacion/>
 			<Contacto/>
 		</main>
+			<CursorPersonalizado/>
 		</>
 	)
 }
