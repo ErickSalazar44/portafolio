@@ -13,7 +13,7 @@ const Home = () => {
         <a className='home__btn btn_cv' href=""> <i className='bx bx-chevrons-down' ></i> Curriculum</a>
       </nav>
       <div className='home__portada-img'>
-        <img src="../portada-image.svg" alt="img-portada" />
+        <img src="/portada-image.svg" alt="img-portada" />
         
       </div>
 

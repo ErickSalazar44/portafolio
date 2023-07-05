@@ -67,7 +67,7 @@
 @media (min-width: 800px) {
     .img-group {
         justify-content: space-between;
-        width: 95%;
+        width: 70%;
         padding: 0;
         align-items: center;
     }
@@ -101,5 +101,9 @@
 @media (min-width: 1100px) {
     .formation__img-graduate {
         left: 28%;
+    }
+
+    .img-group {
+        width: 90%;
     }
 }

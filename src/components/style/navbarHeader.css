@@ -1,6 +1,4 @@
-.header__logo {
-    padding: 0 1em;
-}
+
 .header__contenedor {
     display: flex;
     justify-content: center;
@@ -17,28 +15,11 @@
     z-index: 2000;
     background-color: var(--menuPurple);
 }
-.header__logo > h2{
-    font-family: 'Mirza', cursive;
-    font-size: 2rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: color 0.5s ease-in-out;
-}
-.header__logo > h2 > span {
-    transition: color 0.5s ease-in-out;
-}
-.header__logo-punto {
-    color: whitesmoke;
-}
-.header__logo > h2:hover, .header__logo > h2:hover> .header__logo-tittle-span  {
-    color: var(--purple);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+.logo {
+    width: 60px;
 }
 
-
-.header__logo-tittle-span {
-    color: var(--letrasHome);
-}
 
 .header__info {
     background-color: var(--menuPurple);
@@ -48,7 +29,7 @@
     display: flex;
     gap: 0.5em;
     flex-direction: column;
-    top: 3.5em;
+    top: 3.2em;
     height: 100vh;
     width: 100%;
     transition: left 0.4s ease;
@@ -60,8 +41,8 @@
 .header__info-anclas {
     text-align: start;
     padding: 1em 1em;
-
 }
+
 .header__info-anclas > a {
     padding: 0.5em 1em;
     color: #cbd5e1 ; 
@@ -132,7 +113,8 @@
         display: none;
     }
     .header__info-anclas {
-        padding: 0.5em;
+        padding: 0 0.5em;
+        font-size: 1.1rem;
     }
     .header__navbar{ 
         backdrop-filter: blur(1px);
@@ -150,6 +132,11 @@
 
 }
 @media (min-width:1000px) {
+
+    .header__navbar{
+        padding: 1em 1.5em;
+    }
+
     .header__info {
         background: none;
         backdrop-filter: none;

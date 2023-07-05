@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mirza&family=Roboto+Slab:wght@100;200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,12 +12,12 @@
   --font-familycurva: 'Mirza';
   --font-family: 'Roboto Slab', serif;
   --font-familyContact: 'Kanit', sans-serif;
+  --font-familyCode:'Rajdhani', sans-serif;
 }
 body {
   color: var(--white);
   background-color: var(--purpleBackground);
   font-family: var(--font-familycurva);
-  cursor: none;
 }
 li {
   list-style-type: none;

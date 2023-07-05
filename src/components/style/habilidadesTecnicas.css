@@ -31,7 +31,7 @@
 .hab__card-parrafo {
     max-width: 350px;
     z-index: 3;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.3;
 }
 
@@ -55,7 +55,7 @@
 /*Iconos */
 .hab__body ul {
     max-width: 360px;
-    margin: 4em 1.2rem 2em;
+    margin: 4em 2.3em 2em;
     gap: 14px 11px;
 }
 .hab__flexContent {

@@ -19,3 +19,11 @@
     z-index: 11000;
     pointer-events: none;
 }
+
+
+@media (max-width: 800px) {
+    .cursor-dot,
+.cursor-outline {
+    display: none;
+}
+}

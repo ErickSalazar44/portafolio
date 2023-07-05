@@ -5,12 +5,12 @@
     position: relative;
     width: var(--sizeX);
     height: var(--sizeY);
-    margin-left: var(sizeX / 2);
     border: calc(var(--sizeX) / 10) solid var(--color);
     border-radius: 50px;
     box-sizing: border-box;
     margin-bottom: 16px;
     cursor: pointer;
+    display: none;
 }
 
 .scrolldown::before {
@@ -30,7 +30,7 @@
 
 
 .chevrons {
-    padding: 6px 0 0 0;
+    padding: 10px 0 0 0;
     margin-left: -3px;
     margin-top: 48px;
     width: 30px;
@@ -265,6 +265,11 @@
     }
     .window__body {
         max-width: 450px;
+    }
+
+
+    .scrolldown {
+        display: inline-block;
     }
 }
 
