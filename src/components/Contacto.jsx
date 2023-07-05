@@ -92,7 +92,7 @@ const Contacto = () => {
                     </ul>
                 </div>
                 <div>
-                    <p>hecho con ❤️</p>
+                    <p></p>
                 </div>
             </div>
         </footer>
