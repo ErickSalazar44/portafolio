@@ -1,7 +1,7 @@
 
 .projects__content {
     background-color: var(--fondoProyectCard);
-    background-image: url('./backgroundFondo.png');
+    background-image: url('/backgroundFondo.png');
     display: flex;
     flex-direction: column;
     align-items: center;

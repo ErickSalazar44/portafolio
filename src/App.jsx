@@ -47,6 +47,7 @@ function App() {
 
 	return (
 		<>	<ScrollHome/>
+            <BackToTop mostrarBackToTop={mostrarBackToTop}/>
 			<NavbarHeader/>
 			<Home homeRef={homeRef}/>
 		<main>
@@ -57,7 +58,7 @@ function App() {
 			<Contacto/>
 		</main>
 			<CursorPersonalizado/>
-			<BackToTop mostrarBackToTop={mostrarBackToTop}/>
+
 		</>
 	)
 }
