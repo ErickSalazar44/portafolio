@@ -8,9 +8,10 @@ import HabilidadesTecnicas from './components/HabilidadesTecnicas'
 import Home from './components/Home'
 import NavbarHeader from './components/NavbarHeader'
 import Projects from './components/Projects'
-import BackToTop from './components/back-to-top/BackToTop'
+import BackToTop from './components/VolverAtras/BackToTop'
 import CursorPersonalizado from './components/cursor/CursorPersonalizado'
-import ScrollHome from './components/scrollHome/ScrollHome'
+import ScrollHome from './components/scroll/ScrollHome'
+
 
 
 
@@ -47,8 +48,8 @@ function App() {
     }, []);
 
 	return (
-		<>	<ScrollHome/>
-            <BackToTop mostrarBackToTop={mostrarBackToTop}/>
+		<>	
+            <ScrollHome/>
 			<NavbarHeader/>
 			<Home homeRef={homeRef}/>
 		<main>
@@ -59,7 +60,7 @@ function App() {
 			<Contacto/>
 		</main>
 			<CursorPersonalizado/>
-
+            <BackToTop mostrarBackToTop={mostrarBackToTop}/>
 		</>
 	)
 }
