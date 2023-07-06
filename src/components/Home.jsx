@@ -1,8 +1,8 @@
 import './style/home.css'
 
-const Home = () => {
+const Home = ({homeRef}) => {
   return (
-    <div className='home__contenedor'>
+    <div id='home' ref={homeRef} className='home__contenedor'>
       <h1 className='home__tittle'>Soy
         <span className='nombre'> Erick Salazar</span>
         <span className='punto'>.</span> <br />

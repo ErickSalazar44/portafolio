@@ -44,7 +44,7 @@ const Contacto = () => {
                     ></path>
                 </svg>
             </div>
-            <div className='contact__contenedor'>
+            <div id="contacto" className='contact__contenedor'>
                 <a href='#' className='contact__carrusel'>
                     <div
                         className={`carrusel__1 ${
@@ -157,7 +157,7 @@ const Contacto = () => {
                     </div>
                 </div>
                     <div className='contact__creditos'>
-                        <p className='contact__textfinal'>made with love 💙</p>
+                        <p className='contact__textfinal'>made with 💙</p>
                     </div>
             </div>
         </footer>

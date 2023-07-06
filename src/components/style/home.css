@@ -45,9 +45,7 @@
     border-radius: 2px;
     transition: all 0.3s ease;
     position: relative;
-    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-        7px 7px 20px 0px rgba(0, 0, 0, .1),
-        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5);
     transition: all 0.5s ease-in-out;
     z-index: 1;
     overflow: hidden;
@@ -151,13 +149,23 @@
 }
 
 @media (min-width:1100px) {
+
+    .hab__flexContent > li {
+        font-size: 1.4rem;
+    }
+
+
+    .hab__arrowTamaño {
+        width: 50px;
+    }
+
     .home__contenedor {
         padding: 7em 3em 6em;
     }
 
     .home__tittle {
         max-width: 440px;
-        font-size: 3.8rem;
+        font-size: 4rem;
     }
 
     .home__portada-img {

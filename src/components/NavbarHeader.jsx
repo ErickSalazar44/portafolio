@@ -59,10 +59,15 @@ const NavbarHeader = () => {
         };
     }, []);
 
+    const handleBack = () => {
+        window.scroll(0,0)
+    }
+
+
     return (
         <header id='landing-header' className='header__contenedor'>
             <nav className='header__navbar'>
-                <div className='header__logo'>
+                <div className='header__logo' onClick={handleBack}>
 
                     <div className='logo'>
                         <svg
@@ -117,7 +122,7 @@ const NavbarHeader = () => {
                         </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a href=''>
+                        <a href='#contacto'>
                             <span className='header__info-ancla--span'>
                                 Contacto
                             </span>

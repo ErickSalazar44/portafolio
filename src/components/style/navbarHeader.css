@@ -44,14 +44,14 @@
 }
 
 .header__info-anclas > a {
-    padding: 0.5em 1em;
+    padding: 0.5em;
     color: #cbd5e1 ; 
 }
+
 .header__info-ancla--span {
     display: inline-block;
     position: relative;
     overflow: hidden;
-    padding-bottom: 2px;
 }
 .header__info-ancla--span::before {
     content: '';
@@ -96,7 +96,7 @@
 .menu-backdrop {
     position: absolute;
     background-color: #ffffff21;
-    border-radius: 2em;
+    border-radius: 7px;
     transform: translateX(var(--left)) translateY(var(--top));
     left: 0;
     top: 0;
