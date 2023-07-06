@@ -1,4 +1,4 @@
-import './ScrollHome.css'
+import './scrollHome.css'
 
 const ScrollHome = () => {
     return (
