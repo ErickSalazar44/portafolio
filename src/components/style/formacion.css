@@ -107,3 +107,45 @@
         width: 90%;
     }
 }
+
+
+@media (min-width: 1300px) {
+    .formation {
+        max-width: 1500px;
+        margin: 5em auto;
+        height: 495px;
+    }
+
+    .formation__card .card_list {
+        margin-left: 0;
+        width: 600px;
+    }
+    .formation__img-graduate {
+        position: absolute;
+        width: 24%;
+        top: 10%;
+        left: 29%;
+    }
+    .formation__title {
+        line-height: 0.76;
+        
+    }
+    .title_bg {
+        font-size: 9.2rem;
+        letter-spacing: 5px;
+    }
+
+    .formation__title-card {
+        font-size: 2.5rem;
+        margin: 2.5rem 0 0 0;
+    }
+
+    .formation__parrafo {
+        font-size: 1.7rem;
+    }
+
+    .img-group > img {
+        width: auto;
+        object-fit: contain;
+    }
+}

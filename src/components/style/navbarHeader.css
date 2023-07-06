@@ -143,3 +143,21 @@
         font-size: 1.07rem;
     }
 }
+
+@media (min-width:1400px) {
+    .header__navbar{
+        padding: 1.3em 2em;
+    }
+
+    .header__info {
+        gap: 1em;
+    }
+
+    .header__info-anclas{
+        font-size: 1.22rem;
+    }
+
+    .logo {
+        width: 70px;
+    }
+}
