@@ -1,4 +1,4 @@
-import './backToTop.css'
+import '/backToTop.css'
 const BackToTop = ({mostrarBackToTop}) => {
     
     const handleBack = () => {

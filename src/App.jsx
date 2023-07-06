@@ -13,6 +13,7 @@ import CursorPersonalizado from './components/cursor/CursorPersonalizado'
 import ScrollHome from './components/scrollHome/ScrollHome'
 
 
+
 function App() {
 
 	const homeRef = useRef(null)
