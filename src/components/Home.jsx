@@ -13,7 +13,7 @@ const Home = ({ homeRef }) => {
                 <a className='home__btn btn_proyectos' href='#projects'>
                     Ver proyectos <i className='bx bxs-folder-open'></i>
                 </a>
-                <a className='home__btn btn_cv' href=''>
+                <a className='home__btn btn_cv' href='./ERICK_SALAZAR_CV2.pdf' download>
                     {" "}
                     <i className='bx bx-chevrons-down'></i> Curriculum
                 </a>

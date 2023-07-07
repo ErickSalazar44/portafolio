@@ -49,7 +49,7 @@ const Aboutme = () => {
                                 en HTML, CSS, JavaScript y ReactJS, 
                                 Me gusta utilizar mi conocimiento para construir paginas web de 
                                 alta calidad. Cuando no estoy ampliando mis conocimientos 
-                                en el desarrollo web, disfruto dibujar, jugar video juegos y 
+                                en el desarrollo web, disfruto dibujar, video juegos y 
                                 hacer deporte al ire libre, 
                                 Estoy entusiasmado por seguir creciendo profesionalmente en el ámbito
                                 del desarrollo frontend y aplicar mis habilidades técnicas junto 

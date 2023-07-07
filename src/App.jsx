@@ -1,24 +1,21 @@
-import { useEffect, useRef, useState } from 'react'
-import './App.css'
-import Aboutme from './components/Aboutme'
-import Contacto from './components/Contacto'
-import Formacion from './components/Formacion'
-import HabilidadesTecnicas from './components/HabilidadesTecnicas'
-import Home from './components/Home'
-import NavbarHeader from './components/NavbarHeader'
-import Projects from './components/Projects'
-import BackToTop from './components/VolverAtras/BackToTop'
-import CursorPersonalizado from './components/cursor/CursorPersonalizado'
-import ScrollHome from './components/scroll/ScrollHome'
-import Navigate from './components/navegador/Navigate'
-
+import { useEffect, useRef, useState } from "react";
+import "./App.css";
+import Aboutme from "./components/Aboutme";
+import Contacto from "./components/Contacto";
+import Formacion from "./components/Formacion";
+import HabilidadesTecnicas from "./components/HabilidadesTecnicas";
+import Home from "./components/Home";
+import NavbarHeader from "./components/NavbarHeader";
+import Projects from "./components/Projects";
+import BackToTop from "./components/VolverAtras/BackToTop";
+import CursorPersonalizado from "./components/cursor/CursorPersonalizado";
+import Navigate from "./components/navegador/Navigate";
 
 function App() {
+    const homeRef = useRef(null);
+    const [mostrarBackToTop, setMostrarBackToTop] = useState(false);
 
-	const homeRef = useRef(null)
-	const [mostrarBackToTop, setMostrarBackToTop] = useState(false)
-
-	useEffect(() => {
+    useEffect(() => {
         const options = {
             root: null,
             rootMargin: "0px",
@@ -28,9 +25,9 @@ function App() {
         const handleIntersection = (entries) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
-					setMostrarBackToTop(false)
+                    setMostrarBackToTop(false);
                 } else {
-					setMostrarBackToTop(true)
+                    setMostrarBackToTop(true);
                 }
             });
         };
@@ -45,23 +42,22 @@ function App() {
         };
     }, []);
 
-	return (
-		<>	
-            <ScrollHome/>
-			<NavbarHeader/>
-			<Home homeRef={homeRef}/>
-		<main>
-			<Aboutme/>
-			<HabilidadesTecnicas/>
-			<Projects/>
-			<Formacion/>
-			<Contacto/>
-		</main>
-			<CursorPersonalizado/>
-            <BackToTop mostrarBackToTop={mostrarBackToTop}/>
-            <Navigate/>
-		</>
-	)
+    return (
+        <>
+            <NavbarHeader />
+            <Home homeRef={homeRef} />
+            <main>
+                <Aboutme />
+                <HabilidadesTecnicas />
+                <Projects />
+                <Formacion />
+                <Contacto />
+            </main>
+            <CursorPersonalizado />
+            <BackToTop mostrarBackToTop={mostrarBackToTop} />
+            <Navigate />
+        </>
+    );
 }
 
-export default App
+export default App;

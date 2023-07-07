@@ -12,7 +12,7 @@ const HabilidadesTecnicas = () => {
                         <span className="hab__card-script">“</span>
                     </div>
                     <p className="hab__card-parrafo">
-                    Durante aproximadamente <span className="span-años">1 año</span> y medio, me he sumergido en el estudio autodidacta del diseño, la maquetación y el <span className="span-developer">desarrollo web</span> en general. Aprovechando diversas plataformas en línea, he adquirido conocimientos sólidos en estas áreas. Además, cuento con experiencia en <span className="span-stack">Front-end</span> y poseo un nivel de conocimiento que varía entre básico e intermedio en las siguientes tecnologías y herramientas.
+                    + de un <span className="span-años">1 año</span> y medio, me he sumergido en el estudio autodidacta del diseño, la maquetación y el <span className="span-developer">desarrollo web</span> en general. Aprovechando diversas plataformas en línea, he adquirido conocimientos sólidos en estas áreas. Además, cuento con experiencia en <span className="span-stack">Front-end</span> y poseo un nivel de conocimiento que varía entre básico e intermedio en las siguientes tecnologías y herramientas.
                     </p>
                     <img className="skill" src="./skills.svg" alt="imghabiliadedes" />
                 </header>

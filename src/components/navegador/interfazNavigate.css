@@ -10,9 +10,9 @@
     padding: 1.25rem;
     z-index: 11000;
     overflow: hidden;
-    display: flex;
     align-items: center;
     justify-content: space-between;
+    display: none;
 }
 
 .navigate__anclas {
@@ -40,4 +40,10 @@
 
 .wsp:hover {
     color: var(--green);
+}
+
+@media (min-width: 800px) {
+    .navigate {
+        display: flex;
+    }
 }
