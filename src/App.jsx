@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
 import Aboutme from './components/Aboutme'

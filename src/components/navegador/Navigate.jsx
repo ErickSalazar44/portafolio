@@ -18,7 +18,7 @@ const Navigate = () => {
             <span className="navigate__punto">
                 <i className='bx bx-minus'></i>
             </span>
-            <a className="navigate__correo" href='#'>erickearl22@gmail.com</a>
+            <p className="navigate__correo">erickearl22@gmail.com</p>
         </div>
     );
 };

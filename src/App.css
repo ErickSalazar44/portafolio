@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Mirza&family=Roboto+Slab:wght@100;200;300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Kanit:wght@300&family=Mirza:wght@400;500&family=Rajdhani&family=Roboto:wght@300;400;500&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,7 +18,6 @@ figure {
   --font-familyContact: 'Kanit', sans-serif;
   --font-familyCode:'Rajdhani', sans-serif;
   --font-familyBackToTop: 'Aboreto', cursive;
-  
 }
 body {
   color: var(--white);

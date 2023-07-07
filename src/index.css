@@ -2,7 +2,6 @@
 html {
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
-
     --white: #e2e5e4;
     --purpleBackground: #171717;
     --menuPurple: #1f1f1fc2;
@@ -17,16 +16,8 @@ html {
     /* Color logo*/
     --letrasHome: rgb(111, 111, 111);
     --letrasNavbar: #cbd5e1;
-    --resaltBlue: #68c6e6;
-    --glow-color: rgb(217, 176, 255);
-    --glow-spread-color: rgba(191, 123, 255, 0.781);
-    --enhanced-glow-color: rgb(231, 206, 255);
-    --btn-color: rgb(100, 61, 136);
-    --letrasCardproyect: #9198a2;
-/*
-Azul oscuro de acento: #0e4c92
-*/
-
+    --resaltBlue: #5bc0af;
+    --greenformacion: #5bc0af;
     --softRed: #DD6B6B;
     --sombraBtn: -2px 10px 25px -9px #0b0814;
     --box-shadown: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
@@ -38,9 +29,7 @@ Azul oscuro de acento: #0e4c92
     --git: #BB4141;
     --cssBlue: #2F78E7;
     --greenPastel: #55b483;
-    --greenformacion: #5bc0af;
     --reactSky: #5BD1F1;
-
     --nodeGreen: #51B17D;
     --phBlue: #1DAEDC;
     --figm: -webkit-linear-gradient(215deg, #eb5e33 0%, #ff7768 17%, #a665fa 39%, #32c5ff 60%, #1dc484 80%);

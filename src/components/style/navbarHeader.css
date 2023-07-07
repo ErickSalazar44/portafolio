@@ -21,7 +21,6 @@
     width: 60px;
 }
 
-
 .header__info {
     background-color: var(--menuPurple);
     backdrop-filter: blur( 4.5px );
