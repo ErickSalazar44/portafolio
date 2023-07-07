@@ -7,7 +7,7 @@ const Projects = () => {
             <div className='projects__content-body'>
                 <Project
                     nameProject='Online Store'
-                    img='./onlineStore.png'
+                    img='./onlineStore.webp'
                     SobreProject='Desarrollada con ReactJS y utiliza React Router, Redux y una API para mostrar y gestionar los productos de manera segura y actualizada'
                     pagina='https://onlinestore-ericksalazar.netlify.app/'
                     gitHub='https://github.com/ErickSalazar44/final-boss'
@@ -15,14 +15,14 @@ const Projects = () => {
 
                 <Project
                     nameProject='Pokedex'
-                    img='./pokedex.png'
+                    img='./pokedex.webp'
                     SobreProject='Este proyecto me ha brindado la oportunidad de profundizar mi conocimiento de React y Redux, así como de mejorar mis habilidades en el desarrollo web Responsive.'
                     pagina='https://pokedex-erick-salazar.netlify.app/'
                     gitHub='https://github.com/ErickSalazar44/pokedex'
                 />
                 <Project
                     nameProject='Rick and morty WebSite'
-                    img='./rick_and_morty.png'
+                    img='./rick_and_morty.webp'
                     SobreProject=' la API de Rick and Morty. Permite a los usuarios explorar información sobre los personajes, episodios y ubicaciones de la serie de televisión. Hecho con React.'
                     pagina='https://rick-and-morty-ericksalazar.netlify.app/'
                     gitHub='https://github.com/ErickSalazar44/Rick-and-Morty-'

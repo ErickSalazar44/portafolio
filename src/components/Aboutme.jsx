@@ -20,7 +20,7 @@ const Aboutme = () => {
                         <h4 className='aboutme__name'>
                             Erick{" "}
                             <span className='aboutme__pais'>
-                                <img src='./peru.png' alt='' />
+                                <img src='./peru.webp' alt='bandera peruana' />
                             </span>
                         </h4>
                         <p className='aboutme__level'>Jr. Developer</p>
