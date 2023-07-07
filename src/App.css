@@ -19,6 +19,7 @@ figure {
   --font-familyContact: 'Kanit', sans-serif;
   --font-familyCode:'Rajdhani', sans-serif;
   --font-familyBackToTop: 'Aboreto', cursive;
+  
 }
 body {
   color: var(--white);
@@ -29,3 +30,5 @@ body {
 li {
   list-style-type: none;
 }
+
+

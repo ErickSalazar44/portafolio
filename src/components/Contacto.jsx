@@ -45,7 +45,7 @@ const Contacto = () => {
                 </svg>
             </div>
             <div id="contacto" className='contact__contenedor'>
-                <a href='#' className='contact__carrusel'>
+                <a href='https://www.linkedin.com/in/erick-josep-salazar-8b8b6024b/' target="_blank" className='contact__carrusel'>
                     <div
                         className={`carrusel__1 ${
                             isAnimated ? "animacionCarrusel" : ""
@@ -144,15 +144,19 @@ const Contacto = () => {
                     </div>
                     <div className='contact__email'>
                         <h4 className='contact__email-titulo'>EMAIL</h4>
-                        <a className='contact__email-correo' href='#'>
+                        <p className='contact__email-correo' >
                             erickearl22@gmail.com
-                        </a>
+                        </p>
                     </div>
                     <div className=''>
                         <h4 className='contact__social'>SOCIAL</h4>
                         <ul className='contact__social-ul'>
-                            <li className='contact__linkedin'>LINKEDIN</li>
-                            <li className='contact__github'>GITHUB</li>
+                            <li className='contact__linkedin'>
+                                <a href="https://www.linkedin.com/in/erick-josep-salazar-8b8b6024b/" target="_blank">LINKEDIN</a> 
+                            </li>
+                            <li className='contact__github'>
+                                <a href="https://github.com/ErickSalazar44" target="_blank">GITHUB</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

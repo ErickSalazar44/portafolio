@@ -89,15 +89,16 @@
 
 .btn_cv {
     outline: 1px solid var(--white);
-    color: var(--white);
+    color: var(--purpleBackground);
+    background: var(--white);
 }
 
 .btn_cv:hover {
-    color: var(--purpleBackground);
+    color: var(--white);
 }
 
 .btn_cv::before {
-    background: var(--white);
+    background: var(--purpleBackground);
 }
 
 

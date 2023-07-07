@@ -2,15 +2,23 @@ import Project from "./Project";
 import "./style/projects.css";
 const Projects = () => {
     return (
-        <section id="projects" className='projects__content'>
+        <section id='projects' className='projects__content'>
             <h3 className='projects__titulo'>Proyectos</h3>
             <div className='projects__content-body'>
                 <Project
-                    nameProject='Crud'
-                    img='./crud.png'
-                    SobreProject='Login Realizado con JavaScript vanilla, se aprovecha del almacenamiento local mediante el uso de localStorage.'
-                    pagina='https://login-registeer.netlify.app/'
-                    gitHub='https://github.com/ErickSalazar44/Crud-login'
+                    nameProject='Online Store'
+                    img='./onlineStore.png'
+                    SobreProject='Desarrollada con ReactJS y utiliza React Router, Redux y una API para mostrar y gestionar los productos de manera segura y actualizada'
+                    pagina='https://onlinestore-ericksalazar.netlify.app/'
+                    gitHub='https://github.com/ErickSalazar44/final-boss'
+                />
+
+                <Project
+                    nameProject='Pokedex'
+                    img='./pokedex.png'
+                    SobreProject='Este proyecto me ha brindado la oportunidad de profundizar mi conocimiento de React y Redux, así como de mejorar mis habilidades en el desarrollo web Responsive.'
+                    pagina='https://pokedex-erick-salazar.netlify.app/'
+                    gitHub='https://github.com/ErickSalazar44/pokedex'
                 />
                 <Project
                     nameProject='Rick and morty WebSite'
@@ -19,20 +27,14 @@ const Projects = () => {
                     pagina='https://rick-and-morty-ericksalazar.netlify.app/'
                     gitHub='https://github.com/ErickSalazar44/Rick-and-Morty-'
                 />
-                <Project
+                {/* <Project
                     nameProject='E-commerce'
-                    img='./ecommers1.png'
+                    img='./ecommers.png'
                     SobreProject='Consumiento una API, Está construido con JavaScript, e incluye un carrito de compras funcional. Además, se aprovecha del almacenamiento local mediante el uso de localStorage.'
                     pagina='https://e-commerce-ericksalazar.netlify.app/'
                     gitHub='https://github.com/ErickSalazar44/e-commerce'
                 />
-                <Project
-                    nameProject='Weather App'
-                    img='./webClima.png'
-                    SobreProject='Geolocation brinda informacion precisa sobre sobre el clima en tu ciudad o localidad actual, también te permite explorar y descubrir el clima de otras ciudades.'
-                    pagina='#'
-                    gitHub='#'
-                />
+
                 <Project
                     nameProject='Encriptador'
                     img='./aluraLatam.png'
@@ -40,6 +42,14 @@ const Projects = () => {
                     pagina='https://ericksalazar44.github.io/Proyecto-aluraLatam/'
                     gitHub='https://github.com/ErickSalazar44/Proyecto-aluraLatam'
                 />
+
+                <Project
+                    nameProject='Weather App'
+                    img='./webClima.png'
+                    SobreProject='Geolocation brinda informacion precisa sobre sobre el clima en tu ciudad o localidad actual, también te permite explorar y descubrir el clima de otras ciudades.'
+                    pagina='#'
+                    gitHub='#'
+                /> */}
             </div>
         </section>
     );

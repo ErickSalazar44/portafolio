@@ -208,3 +208,22 @@
 
 }
 
+@media (min-width: 1400px) {
+    .window__body {
+        max-width: 550px;
+    }
+
+    .window__parrafo {
+        font-size: 1.2rem;
+    }
+
+    .aboutme__body-tittle {
+        padding-top: 0;
+        font-size: 2.5rem;
+    }
+
+    
+}
+
+
+

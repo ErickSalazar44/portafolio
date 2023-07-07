@@ -11,8 +11,7 @@ import Projects from './components/Projects'
 import BackToTop from './components/VolverAtras/BackToTop'
 import CursorPersonalizado from './components/cursor/CursorPersonalizado'
 import ScrollHome from './components/scroll/ScrollHome'
-
-
+import Navigate from './components/navegador/Navigate'
 
 
 function App() {
@@ -61,6 +60,7 @@ function App() {
 		</main>
 			<CursorPersonalizado/>
             <BackToTop mostrarBackToTop={mostrarBackToTop}/>
+            <Navigate/>
 		</>
 	)
 }

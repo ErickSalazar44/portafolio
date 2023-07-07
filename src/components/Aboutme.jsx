@@ -5,13 +5,13 @@ const Aboutme = () => {
         <section id='aboutme' className='aboutme__contenedor'>
             <div className="aboutme__body_contenedor">
                 <div className='aboutme__porfile-photo'>
-                    <a href=''>
+                    <a href='https://www.linkedin.com/in/erick-josep-salazar-8b8b6024b/' target="_blank">
                         <i className='linkedin bx bxl-linkedin-square'></i>
                     </a>
-                    <a href=''>
+                    <a href='https://github.com/ErickSalazar44' target="_blank">
                         <i className='git bx bxl-github'></i>
                     </a>
-                    <a href='' className='btn_contact' aria-label='Email'>
+                    <a href='https://www.linkedin.com/in/erick-josep-salazar-8b8b6024b/' target="_blank" className='btn_contact' aria-label='Email'>
                         <i className=' bx bx-paper-plane'></i>
                         Contáctame
                     </a>
@@ -44,20 +44,16 @@ const Aboutme = () => {
                             <div className='window__sidebar'>1</div>
                             <div className='window__text'>
                                 <p className='window__parrafo'>
-                                    Lorem a asdasdsa asdasdasdas asdas asdasdqwdqwd
-                                    qweqwe dolor sit amet consectetur adipisicing
-                                    elit. Consequatur qui, excepturi ab error
-                                    architecto culpa quas eos autem iusto
-                                    reprehenderit quam, similique modi dolore
-                                    doloremque, rerum soluta itaque at saepe!
-                                    Architecto alias error unde accusantium, dolorem
-                                    odit quisquam porro maiores. Lorem ipsum dolor
-                                    sit amet consectetur adipisicing elit. Odit quo
-                                    doloremque mollitia! Iusto vitae eveniet aliquam
-                                    fuga qui, non temporibus molestias optio
-                                    maiores, eligendi accusantium! Facilis
-                                    architecto neque aperiam rem. ectetur incidunt
-                                    ea cumque debitis.
+                                Desarrollador junior frontend con experiencia en la creación de 
+                                interfaces de usuario. Poseo habilidades 
+                                en HTML, CSS, JavaScript y ReactJS, 
+                                Me gusta utilizar mi conocimiento para construir paginas web de 
+                                alta calidad. Cuando no estoy ampliando mis conocimientos 
+                                en el desarrollo web, disfruto dibujar, jugar video juegos y 
+                                hacer deporte al ire libre, 
+                                Estoy entusiasmado por seguir creciendo profesionalmente en el ámbito
+                                del desarrollo frontend y aplicar mis habilidades técnicas junto 
+                                con mi creatividad en futuros proyectos desafiantes.
                                 </p>
                                 <svg
                                     className='content-cursor'

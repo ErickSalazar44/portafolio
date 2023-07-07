@@ -1,23 +1,24 @@
+
 import './style/habilidadesTecnicas.css'
 const HabilidadesTecnicas = () => {
+
+
     return (
         <section id="habilidades" className="hab">
             <div className="hab__card">
                 <header className="hab__card-info">
-                    <div>
+                    <div className='har__card-header'>
                         <h2 className="hab__card-title">Habilidades técnicas</h2>
                         <span className="hab__card-script">“</span>
                     </div>
                     <p className="hab__card-parrafo">
-                        Llevo alrededor de <span className="span-años"> 1 año</span> y medio de estudio sobre diseño, maquetación y <span className="span-developer"> desarrollo web</span> en general de manera autodidacta y en plataformas online. 
-                        Actualmente me certifique como desarrollador <span className="span-stack">Front-end</span> y tengo conocimiento básico e intermedio de las siguientes 
-                        tecnologías y herramientas.
+                    Durante aproximadamente <span className="span-años">1 año</span> y medio, me he sumergido en el estudio autodidacta del diseño, la maquetación y el <span className="span-developer">desarrollo web</span> en general. Aprovechando diversas plataformas en línea, he adquirido conocimientos sólidos en estas áreas. Además, cuento con experiencia en <span className="span-stack">Front-end</span> y poseo un nivel de conocimiento que varía entre básico e intermedio en las siguientes tecnologías y herramientas.
                     </p>
                     <img className="skill" src="./skills.svg" alt="imghabiliadedes" />
                 </header>
                 <div className="hab__body">
                     <ul className="hab__flexContent">
-                        <li className="hab__js">
+                        <li className='hab__js'>
                             <i className='hab__bx bx bxl-javascript'></i>
                             <h4>JavaScript</h4>
                         </li>

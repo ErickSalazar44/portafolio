@@ -13,7 +13,8 @@
     top: 0;
     padding: 0.6em 1.5em;
     z-index: 2000;
-    background-color: var(--menuPurple);
+    background: transparent;
+    backdrop-filter: blur(12px);
 }
 
 .logo {
@@ -117,7 +118,7 @@
         font-size: 1.1rem;
     }
     .header__navbar{ 
-        backdrop-filter: blur(1px);
+        backdrop-filter: blur(12px);
     }
     .header__info {
         position: static;
@@ -146,15 +147,11 @@
 
 @media (min-width:1400px) {
     .header__navbar{
-        padding: 1.3em 2em;
+        padding: 1.1em 2em;
     }
 
     .header__info {
         gap: 1em;
-    }
-
-    .header__info-anclas{
-        font-size: 1.22rem;
     }
 
     .logo {

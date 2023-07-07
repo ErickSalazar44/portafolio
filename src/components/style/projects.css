@@ -79,11 +79,12 @@
 
     .projects__titulo {
         font-family: var(--font-familyBackToTop);
-        font-size: 3rem;
+        font-size: 2.3rem;
     }
 
     .projects__content-body {
         max-width: 1500px;
+        gap:6em;
     }
 
     .projects__Card {
@@ -112,7 +113,6 @@
     }
 
     .projects__parrafo {
-        color: var(--white);
         line-height: 1.5;
     }
 }
