@@ -12,6 +12,7 @@
     overflow: hidden;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .navigate__anclas {
@@ -22,10 +23,11 @@
 
 .navigate__punto {
     font-size: 1rem;
-    margin: 0 11px;
+    margin: 0 16px;
 }
 
 .navigate__correo {
+    margin: 0 16px;
     font-family: var(--font-familyCode);
 }
 
@@ -35,9 +37,7 @@
 .linke:hover {
     color: rgb(68, 131, 190);
 }
-.instagram:hover{
-    color: var(--softRed);
-}
+
 .wsp:hover {
     color: var(--green);
 }
