@@ -34,14 +34,13 @@
 
 /* Section de botones */
 .home__btn {
-    font-family: 'Roboto Slab', serif;
     display: flex;
     justify-content: center;
     align-items: end;
     padding: 0.7em 1em;
     margin-left: 0;
     gap: 0.5em;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border-radius: 2px;
     transition: all 0.3s ease;
     position: relative;
