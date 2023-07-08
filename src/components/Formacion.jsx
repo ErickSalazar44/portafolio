@@ -30,15 +30,15 @@ const Formacion = () => {
                         <h3 className='formation__title-card'>Alura Latam</h3>
                         <p className='formation__parrafo'>
                             <span className='aluraColorblue'>Front-end</span>{" "}
-                            Developer 2022 - 2023
+                            Developer 2023 - 2023
                         </p>
                     </li>
                     <li className='list_line'>
                         <h3 className='formation__title-card'>Cibertec</h3>
                         <p className='formation__parrafo'>
                             Computación e{" "}
-                            <span className='yellow'>informatica</span> 2021 -
-                            2022
+                            <span className='yellow'>informatica</span> 2020 -
+                            2021
                         </p>
                     </li>
                 </ul>
