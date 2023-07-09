@@ -1,9 +1,9 @@
 const Project = ({nameProject,img,SobreProject,pagina,gitHub}) => {
     return (
         <div className='projects__Card'>
-            <div className='projects__ImgContent'>
+            <a href={pagina} target="_blank" className='projects__ImgContent'>
                 <img className='projects__img' src={img} alt='' />
-            </div>
+            </a>
             <div className='projects__body'>
                 <nav className='projects__body-header'>
                     <h4 className='projects__body-titulo'>{nameProject}</h4>
