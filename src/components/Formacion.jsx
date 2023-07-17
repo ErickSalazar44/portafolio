@@ -15,7 +15,7 @@ const Formacion = () => {
                     <h2 className='bg_letter'>MA</h2>
                 </span>
                 <span className='title_bg for'>
-                    <h2 className='bg_letter'>CIÓN</h2>
+                    <h2 className='bg_letter'>CION</h2>
                 </span>
             </div>
             <div className='formation__card'>

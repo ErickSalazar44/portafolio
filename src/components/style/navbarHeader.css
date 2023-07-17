@@ -96,7 +96,7 @@
 /* Efect Sombras */
 .menu-backdrop {
     position: absolute;
-    background-color: #ffffff21;
+    background-color: #7c7c7c25;
     border-radius: 7px;
     transform: translateX(var(--left)) translateY(var(--top));
     left: 0;
@@ -105,7 +105,7 @@
     height: var(--height);
     transition: transform 0.5s cubic-bezier(0.85, 0, 0.15, 1);
     opacity: 1;
-    z-index: 1;
+    z-index: 10000;
 }
 
 
