@@ -44,16 +44,7 @@ const Aboutme = () => {
                             <div className='window__sidebar'>1</div>
                             <div className='window__text'>
                                 <p className='window__parrafo'>
-                                Desarrollador junior frontend con experiencia en la creación de 
-                                interfaces de usuario. Poseo habilidades 
-                                en HTML, CSS, JavaScript y ReactJS, 
-                                Me gusta utilizar mi conocimiento para construir paginas web de 
-                                alta calidad. Cuando no estoy ampliando mis conocimientos 
-                                en el desarrollo web, disfruto dibujar, video juegos y 
-                                hacer deporte al ire libre, 
-                                Estoy entusiasmado por seguir creciendo profesionalmente en el ámbito
-                                del desarrollo frontend y aplicar mis habilidades técnicas junto 
-                                con mi creatividad en futuros proyectos desafiantes.
+                                Desarrollador junior Fron-tend con experiencia en la creación de interfaces de usuario. Poseo habilidades en HTML, CSS, JavaScript y ReactJS, Me gusta utilizar mi conocimiento para construir páginas web de alta calidad. Cuando no estoy ampliando mis conocimientos en el desarrollo web, disfruto dibujar, videojuegos y hacer deporte al iré libre, Estoy entusiasmado por seguir creciendo profesionalmente en el ámbito del desarrollo Fron-tend y aplicar mis habilidades técnicas junto con mi creatividad en futuros proyectos desafiantes.
                                 </p>
                                 <svg
                                     className='content-cursor'

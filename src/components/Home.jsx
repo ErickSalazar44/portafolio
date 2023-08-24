@@ -7,7 +7,7 @@ const Home = ({ homeRef }) => {
                 Soy
                 <span className='nombre'> Erick Salazar</span>
                 <span className='punto'>.</span> <br />
-                <span>Desarrollador Frontend</span>
+                <span>Desarrollador Full Stack</span>
             </h1>
             <nav className='home__nav'>
                 <a className='home__btn btn_proyectos' href='#projects'>

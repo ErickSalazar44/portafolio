@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Kanit:wght@300&family=Mirza:wght@400;500&family=Rajdhani&family=Roboto:wght@300;400;500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,10 +11,13 @@ figure {
   padding: 0;
 }
 
+@font-face {
+  font-family: 'Mirza';
+  src: url('/FuentesPortafolio/Mirza/Mirza-Medium.ttf');
+}
+
 :root {
   --font-familycurva: 'Mirza';
-  --font-family: 'Roboto Slab', serif;
-  --font-familyContact: 'Kanit', sans-serif;
   --font-familyCode:'Rajdhani', sans-serif;
   --font-familyBackToTop: 'Aboreto', cursive;
 }
