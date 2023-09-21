@@ -145,7 +145,7 @@ const Contacto = () => {
                     <div className='contact__email'>
                         <h4 className='contact__email-titulo'>EMAIL</h4>
                         <p className='contact__email-correo' >
-                            erickearl22@gmail.com
+                            erickjosepsalazar2@gmail.com
                         </p>
                     </div>
                     <div className=''>

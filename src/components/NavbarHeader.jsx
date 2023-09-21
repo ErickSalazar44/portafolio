@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./style/navbarHeader.css";
 
 const NavbarHeader = () => {
@@ -7,57 +7,32 @@ const NavbarHeader = () => {
         setMenuOpen(!menuOpen);
     };
 
-    useEffect(() => {
-        const menuBackDrop = document.querySelector("#menu-backdrop"); // sombra
-        const anclas = document.querySelectorAll("#landing-header li a"); // position de las anclas a sombrear
+    const menuBackdrop = useRef(null)
 
-        const handleMouseEnter = (event) => {
-            const listItem = event.target.closest("a");
-            const { left, top, width, height } =
-                listItem.getBoundingClientRect(); // posicion de las anclas
-            // almacen en variables con la propiedad setProperty
-            menuBackDrop.style.setProperty(
-                "--left",
-                `${left + window.scrollX}px`
-            );
-            menuBackDrop.style.setProperty(
-                "--top",
-                `${top + window.scrollY}px`
-            );
-            menuBackDrop.style.setProperty("--width", `${width}px`);
-            menuBackDrop.style.setProperty("--height", `${height}px`);
-            menuBackDrop.style.opacity = "1";
-            menuBackDrop.style.visibility = "visible";
-        };
+    const sombra = menuBackdrop.current
 
-        const handleMouseLeave = () => {
-            // al quitar el mouse quitamos la visibilidad del sombreado
-            menuBackDrop.style.opacity = "0";
-            menuBackDrop.style.visibility = "hidden";
-        };
+    const handleMouseEnter = (event) => {
+        const listItem = event.target.closest("a");
+        const { left, top, width, height } =
+            listItem.getBoundingClientRect(); // posicion de las anclas
+        // almacen en variables con la propiedad setProperty
+        sombra.style.setProperty(
+            "--left",
+            `${left + window.scrollX}px`
+        );
+        sombra.style.setProperty(
+            "--top",
+            `${top + window.scrollY}px`
+        );
+        sombra.style.setProperty("--width", `${width}px`);
+        sombra.style.setProperty("--height", `${height}px`);
+        sombra.style.opacity = "1";
+    };
 
-        const handleCloseMenu = () => {
-            setMenuOpen(false);
-        };
-
-        anclas.forEach((ancla) => {
-            ancla.addEventListener("mouseenter", handleMouseEnter);
-            ancla.addEventListener("mouseleave", handleMouseLeave);
-            ancla.addEventListener("click", handleMouseLeave);
-            ancla.addEventListener("click", handleCloseMenu);
-            window.addEventListener("scroll", handleMouseLeave);
-        });
-
-        return () => {
-            anclas.forEach((ancla) => {
-                ancla.removeEventListener("mouseenter", handleMouseEnter);
-                ancla.removeEventListener("mouseleave", handleMouseLeave);
-                ancla.removeEventListener("click", handleMouseLeave);
-                ancla.removeEventListener("click", handleCloseMenu);
-                window.removeEventListener("scroll", handleMouseLeave);
-            });
-        };
-    }, []);
+    const handleMouseLeave = () => {
+        // al quitar el mouse quitamos la visibilidad del sombreado
+        sombra.style.opacity = "0";
+    };
 
     const handleBack = () => {
         window.scroll(0,0)
@@ -94,38 +69,28 @@ const NavbarHeader = () => {
                     }`}
                 >
                     <li className='header__info-anclas'>
-                        <a href='#aboutme'>
-                            <span className='header__info-ancla--span'>
-                                Acerca de mí
-                            </span>
+                        <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href='#aboutme'>
+                                Acerca de mí                            
                         </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a href='#habilidades'>
-                            <span className='header__info-ancla--span'>
-                                Habilidades
-                            </span>
+                        <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href='#habilidades'>
+                                Habilidades                            
                         </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a href='#projects'>
-                            <span className='header__info-ancla--span'>
-                                Proyectos
-                            </span>
+                        <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href='#projects'>
+                                Proyectos                            
                         </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a href='#formacion'>
-                            <span className='header__info-ancla--span'>
-                                Formación
-                            </span>
+                        <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href='#formacion'>
+                                Formación                            
                         </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a href='#contacto'>
-                            <span className='header__info-ancla--span'>
-                                Contacto
-                            </span>
+                        <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href='#contacto'>
+                                Contacto                            
                         </a>
                     </li>
                 </ul>
@@ -134,7 +99,7 @@ const NavbarHeader = () => {
                     <i className={`bx bx-x ${menuOpen ? "" : "close"}`}></i>
                 </button>
             </nav>
-            <div id='menu-backdrop' className='menu-backdrop'></div>
+            <div ref={menuBackdrop} className='menu-backdrop'></div>
         </header>
     );
 };

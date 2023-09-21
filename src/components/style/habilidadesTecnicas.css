@@ -119,6 +119,12 @@
     border-radius: 0 0 0.5em 0;
 }
 
+/*postgresql*/
+.hab__postgresql {
+    color: var(--phBlue);
+    border-radius: 0.5em 0 0 0;
+}
+
 /*Icon arrow*/
 .hab__arrowTamaño {
     display: flex;

@@ -21,11 +21,11 @@ const Projects = () => {
                     gitHub='https://github.com/ErickSalazar44/pokedex'
                 />
                 <Project
-                    nameProject='Rick and morty WebSite'
-                    img='./rick_and_morty.webp'
-                    SobreProject=' la API de Rick and Morty. Permite a los usuarios explorar información sobre los personajes, episodios y ubicaciones de la serie de televisión. Hecho con React.'
-                    pagina='https://rick-and-morty-ericksalazar.netlify.app/'
-                    gitHub='https://github.com/ErickSalazar44/Rick-and-Morty-'
+                    nameProject='Plataforma de Películas'
+                    img='./aluraflix.png'
+                    SobreProject='Desde el uso de React.js, Vite, React Router DOM y Redux para crear una experiencia interactiva y eficiente, hasta la implementación de Tailwind CSS siguiendo el enfoque "mobile-first".'
+                    pagina='https://aluraflix-ericksalazar.netlify.app/'
+                    gitHub='https://github.com/ErickSalazar44/aluraFlix'
                 />
                 {/* <Project
                     nameProject='E-commerce'
