@@ -1,37 +1,10 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import "./style/navbarHeader.css";
 
 const NavbarHeader = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
-    };
-
-    const menuBackdrop = useRef(null)
-
-    const sombra = menuBackdrop.current
-
-    const handleMouseEnter = (event) => {
-        const listItem = event.target.closest("a");
-        const { left, top, width, height } =
-            listItem.getBoundingClientRect(); // posicion de las anclas
-        // almacen en variables con la propiedad setProperty
-        sombra.style.setProperty(
-            "--left",
-            `${left + window.scrollX}px`
-        );
-        sombra.style.setProperty(
-            "--top",
-            `${top + window.scrollY}px`
-        );
-        sombra.style.setProperty("--width", `${width}px`);
-        sombra.style.setProperty("--height", `${height}px`);
-        sombra.style.opacity = "1";
-    };
-
-    const handleMouseLeave = () => {
-        // al quitar el mouse quitamos la visibilidad del sombreado
-        sombra.style.opacity = "0";
     };
 
     const handleBack = () => {
@@ -69,27 +42,27 @@ const NavbarHeader = () => {
                     }`}
                 >
                     <li className='header__info-anclas'>
-                        <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href='#aboutme'>
+                        <a href='#aboutme'>
                                 Acerca de mí                            
                         </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href='#habilidades'>
+                        <a href='#habilidades'>
                                 Habilidades                            
                         </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href='#projects'>
+                        <a href='#projects'>
                                 Proyectos                            
                         </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href='#formacion'>
+                        <a href='#formacion'>
                                 Formación                            
                         </a>
                     </li>
                     <li className='header__info-anclas'>
-                        <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href='#contacto'>
+                        <a href='#contacto'>
                                 Contacto                            
                         </a>
                     </li>
@@ -99,7 +72,6 @@ const NavbarHeader = () => {
                     <i className={`bx bx-x ${menuOpen ? "" : "close"}`}></i>
                 </button>
             </nav>
-            <div ref={menuBackdrop} className='menu-backdrop'></div>
         </header>
     );
 };
